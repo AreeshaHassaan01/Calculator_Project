@@ -39,6 +39,7 @@ cout<<"Roll No."<<"2024-SET-035";
 
 
 
+Division
 
 
 
@@ -57,6 +58,9 @@ cout<<"Roll No."<<"2024-SET-035";
 
 
 Division:
+=======
+Multiplication:
+Multiplication
 using System;
 
 class Program
@@ -67,8 +71,13 @@ class Program
         double num1 = Convert.ToDouble(Console.ReadLine());
         Console.Write("Enter second number: ");
         double num2 = Convert.ToDouble(Console.ReadLine());
+Division
         double division = num1 / num2;
         Console.WriteLine("The Division is: " + division);
+=======
+        double multiplication = num1 * num2;
+        Console.WriteLine("The Multiplication is: " + multiplication);
+Multiplication
         Console.ReadLine();
     }
 }
