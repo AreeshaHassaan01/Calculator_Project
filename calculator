@@ -1,2 +1,74 @@
 cout<<"Name"<<"Areesha Hassaan";
 cout<<"Roll No."<<"2024-SET-035";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Division:
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Enter first number: ");
+        double num1 = Convert.ToDouble(Console.ReadLine());
+        Console.Write("Enter second number: ");
+        double num2 = Convert.ToDouble(Console.ReadLine());
+        double division = num1 / num2;
+        Console.WriteLine("The Division is: " + division);
+        Console.ReadLine();
+    }
+}
